@@ -175,6 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const roles = [
       'Aspiring AI/ML Engineer',
       'Python & Machine Learning Developer',
+      'UI/UX Designer & Frontend Developer',
       'Data Analysis & SQL Specialist',
       'Software Engineer (Class of 2027)'
     ];
