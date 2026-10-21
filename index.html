@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mary Asitha A, a final-year Computer Science Engineering student aspiring to become an AI/ML Engineer. Skilled in Python, Machine Learning, SQL, and AI projects.">
+  <title>Mary Asitha A | Aspiring AI/ML Engineer</title>
+  
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       1. HEADER & NAVIGATION BAR
+       Sticky header containing brand logo and navigation links.
+       ========================================================= -->
+  <header class="header" id="top">
+    <div class="container nav-container">
+      <!-- Site Logo / Name -->
+      <a href="#top" class="logo">
+        Mary<span class="accent">Asitha</span>
+      </a>
+
+      <!-- Mobile Hamburger Menu Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-link-cta">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       MAIN CONTENT CONTAINER
+       ========================================================= -->
+  <main>
+
+    <!-- =========================================================
+         2. HERO SECTION
+         ========================================================= -->
+    <section class="section hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Status Badge -->
+          <div class="badge">👋 Open to Entry-Level AI/ML & Software Roles</div>
+          
+          <!-- Candidate Name & Target Title -->
+          <h1 class="hero-title">
+            Hi, I'm <span class="accent">Mary Asitha A</span>
+          </h1>
+          <h2 class="hero-subtitle">Aspiring AI/ML Engineer & Software Engineer</h2>
+          
+          <!-- Key Academic Badges (Immediate Credibility for Freshers) -->
+          <div class="hero-meta-badges">
+            <span class="meta-pill">🎓 St. Joseph’s Institute of Technology, Chennai</span>
+            <span class="meta-pill highlight">⭐ CGPA: 8.73 / 10</span>
+            <span class="meta-pill">📅 Class of 2027</span>
+          </div>
+
+          <!-- Concise Recruiter-Ready Value Proposition -->
+          <p class="hero-description">
+            Final-year Computer Science Engineering student focused on building practical AI-powered applications, machine learning workflows, and reliable Python-driven software. Eager to contribute to engineering teams solving real-world problems.
+          </p>
+
+          <!-- 3 Recruiter CTAs: Projects, Resume Download, and Contact -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Featured Projects</span> &rarr;
+            </a>
+            <a href="resume.pdf" class="btn btn-secondary" target="_blank" download="Mary_Asitha_A_Resume.pdf" title="Download Mary Asitha's Resume (PDF)">
+              <span>Download Resume</span> 📄
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Core Technical Pillars -->
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">🐍</span>
+              <span class="highlight-label">Python</span>
+              <span class="highlight-sub">Core & Scripting</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🤖</span>
+              <span class="highlight-label">Machine Learning</span>
+              <span class="highlight-sub">Fundamentals & Models</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">📊</span>
+              <span class="highlight-label">Data Analysis & SQL</span>
+              <span class="highlight-sub">Pandas, NumPy, MySQL</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">💡</span>
+              <span class="highlight-label">AI Applications</span>
+              <span class="highlight-sub">Flask, Streamlit, SQLite</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. ABOUT SECTION
+         Dedicated about section with Mary's story & mindset.
+         ========================================================= -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Passionate about Artificial Intelligence, Machine Learning & Software Innovation.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <p class="about-text">
+            I’m <strong>Mary Asitha</strong>, a final-year Computer Science Engineering student passionate about Artificial Intelligence, Machine Learning, and software development. I enjoy exploring new technologies and building practical projects that solve real-world problems. I’m developing my skills in Python, SQL, data analysis, and machine learning while working on AI-powered applications. I’m eager to learn, collaborate with others, and begin my career as an AI/ML Engineer, contributing to innovative and impactful projects.
+          </p>
+
+          <div class="about-features-grid">
+            <div class="about-feature">
+              <span class="about-feature-icon">🎓</span>
+              <div>
+                <h3 class="about-feature-title">Final-Year CSE</h3>
+                <p class="about-feature-desc">Strong foundation in computer science and algorithms</p>
+              </div>
+            </div>
+
+            <div class="about-feature">
+              <span class="about-feature-icon">🤖</span>
+              <div>
+                <h3 class="about-feature-title">AI/ML Aspirant</h3>
+                <p class="about-feature-desc">Dedicated to machine learning and intelligent models</p>
+              </div>
+            </div>
+
+            <div class="about-feature">
+              <span class="about-feature-icon">📊</span>
+              <div>
+                <h3 class="about-feature-title">Data & SQL</h3>
+                <p class="about-feature-desc">Skilled in data analysis and relational databases</p>
+              </div>
+            </div>
+
+            <div class="about-feature">
+              <span class="about-feature-icon">🚀</span>
+              <div>
+                <h3 class="about-feature-title">Problem Solver</h3>
+                <p class="about-feature-desc">Driven to innovate and build real-world applications</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. SKILLS SECTION
+         Technical stack tailored to AI/ML Engineering & Data.
+         ========================================================= -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            Core technologies and tools I utilize for software and AI development.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Python and AI/ML -->
+          <div class="skill-category-card">
+            <h3 class="skill-category-title">🐍 Python and AI/ML</h3>
+            
+            <div class="skill-group">
+              <h4 class="skill-group-name">Programming Languages</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">Python</span>
+                <span class="skill-pill">Java</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-group-name">AI & Machine Learning</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">Machine Learning Fundamentals</span>
+                <span class="skill-pill">Data Preprocessing</span>
+                <span class="skill-pill">Model Evaluation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Data Analysis and SQL -->
+          <div class="skill-category-card">
+            <h3 class="skill-category-title">📊 Data Analysis and SQL</h3>
+            
+            <div class="skill-group">
+              <h4 class="skill-group-name">Data Analysis</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">Pandas</span>
+                <span class="skill-pill">NumPy</span>
+                <span class="skill-pill">Data Visualization</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-group-name">Database</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">SQL</span>
+                <span class="skill-pill">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Web Development -->
+          <div class="skill-category-card">
+            <h3 class="skill-category-title">🌐 Web Development</h3>
+            
+            <div class="skill-group">
+              <h4 class="skill-group-name">Web Technologies & Frameworks</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">HTML</span>
+                <span class="skill-pill">CSS</span>
+                <span class="skill-pill">JavaScript</span>
+                <span class="skill-pill">Flask</span>
+                <span class="skill-pill">Streamlit</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Tools and Platforms -->
+          <div class="skill-category-card">
+            <h3 class="skill-category-title">🛠️ Tools and Platforms</h3>
+            
+            <div class="skill-group">
+              <h4 class="skill-group-name">Tools & Platforms</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">Git</span>
+                <span class="skill-pill">GitHub</span>
+                <span class="skill-pill">VS Code</span>
+                <span class="skill-pill">Jupyter Notebook</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-group-name">Automation</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">UiPath</span>
+                <span class="skill-pill">Robotic Process Automation (RPA)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 5: Core Computer Science -->
+          <div class="skill-category-card">
+            <h3 class="skill-category-title">💡 Core Computer Science</h3>
+            
+            <div class="skill-group">
+              <h4 class="skill-group-name">Core Concepts</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">Object-Oriented Programming (OOP)</span>
+                <span class="skill-pill">DBMS</span>
+                <span class="skill-pill">Data Structures and Algorithms</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. PROJECTS SECTION
+         ========================================================= -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Web applications, AI assistants, and software tools I have developed.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: AI Memory Reconstruction Assistant -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-icon">🧠</span>
+              <span class="project-category">AI & Web App</span>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">AI Memory Reconstruction Assistant</h3>
+              <p class="project-description">
+                Developed a web-based application designed to organize personal notes and documents and make stored information easier to retrieve. Implemented data storage and search functionality to support information retrieval.
+              </p>
+              
+              <ul class="project-features">
+                <li>Note and document organization</li>
+                <li>SQLite-based data storage</li>
+                <li>Search and information retrieval</li>
+                <li>Web application using Flask</li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">AI</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/MaryAsitha" target="_blank" rel="noopener noreferrer" class="card-link">GitHub Repo &rarr;</a>
+              <a href="#projects" class="card-link card-link-primary">Project Details &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 2: AI & Data Quality Assessment Engine -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-icon">📊</span>
+              <span class="project-category">Data & AI</span>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">AI & Data Quality Assessment Engine</h3>
+              <p class="project-description">
+                Developed an intelligent analytics and data quality assessment system to analyze raw data, detect anomalies, evaluate distributions, and support data-driven decision making.
+              </p>
+
+              <ul class="project-features">
+                <li>Automated data quality & anomaly detection</li>
+                <li>Exploratory data analysis with Pandas & NumPy</li>
+                <li>Relational database queries using SQL</li>
+                <li>Actionable insights & visual trend reporting</li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Data Analysis</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/MaryAsitha" target="_blank" rel="noopener noreferrer" class="card-link">GitHub Repo &rarr;</a>
+              <a href="#projects" class="card-link card-link-primary">Project Details &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 3: Personal Portfolio Website -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-icon">🌐</span>
+              <span class="project-category">Web Development</span>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-description">
+                Created a personal portfolio website to showcase my technical skills, projects, education, and career goals. Designed the website to present my profile and project experience professionally to recruiters.
+              </p>
+
+              <ul class="project-features">
+                <li>Responsive portfolio design</li>
+                <li>Technical skills and project showcase</li>
+                <li>Education and milestones sections</li>
+                <li>Contact information and professional links</li>
+              </ul>
+
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/MaryAsitha" target="_blank" rel="noopener noreferrer" class="card-link">GitHub Repo &rarr;</a>
+              <a href="#projects" class="card-link card-link-primary">Live Demo &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. EDUCATION & MILESTONES SECTION
+         ========================================================= -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Education & Milestones</h2>
+          <p class="section-subtitle">
+            My academic foundation, internships, certifications, and research journey.
+          </p>
+        </div>
+
+        <!-- Main Education Degree Card -->
+        <div class="education-card">
+          <div class="education-header">
+            <div>
+              <h3 class="education-title">Bachelor of Engineering / Technology in Computer Science and Engineering</h3>
+              <div class="education-institution">St. Joseph’s Institute of Technology, Chennai</div>
+            </div>
+            <div class="education-meta">
+              <span class="education-cgpa">⭐ CGPA: 8.73 / 10</span>
+              <span class="education-year">Graduation Year: 2027</span>
+            </div>
+          </div>
+
+          <div class="coursework-title">Relevant Coursework:</div>
+          <div class="coursework-tags">
+            <span class="coursework-tag">Programming in C & Java</span>
+            <span class="coursework-tag">Python</span>
+            <span class="coursework-tag">Database Management Systems (DBMS)</span>
+            <span class="coursework-tag">Machine Learning Fundamentals</span>
+            <span class="coursework-tag">Data Structures and Algorithms</span>
+            <span class="coursework-tag">Web Development</span>
+          </div>
+        </div>
+
+        <!-- Milestones & Achievements Grid -->
+        <h3 class="milestones-title">Milestones & Achievements</h3>
+        <div class="milestones-grid">
+          
+          <div class="milestone-card">
+            <div class="milestone-icon">🎓</div>
+            <div class="milestone-content">
+              <h4>Academic Progress</h4>
+              <p>Maintaining a strong academic record with a CGPA of <strong>8.73/10</strong> in Computer Science and Engineering at St. Joseph’s Institute of Technology.</p>
+            </div>
+          </div>
+
+          <div class="milestone-card">
+            <div class="milestone-icon">💼</div>
+            <div class="milestone-content">
+              <h4>Full Stack Development Internship</h4>
+              <p>Completed internship experience with <strong>Cognifyz</strong>, gaining exposure to web development, REST APIs, client-side validation, and database integration.</p>
+            </div>
+          </div>
+
+          <div class="milestone-card">
+            <div class="milestone-icon">☕</div>
+            <div class="milestone-content">
+              <h4>Java Programming Internship</h4>
+              <p>Completed a virtual internship with <strong>CodSoft</strong>, strengthening core programming fundamentals and Object-Oriented Programming (OOP) concepts.</p>
+            </div>
+          </div>
+
+          <div class="milestone-card">
+            <div class="milestone-icon">🤖</div>
+            <div class="milestone-content">
+              <h4>AI & Data Analytics Projects</h4>
+              <p>Developed projects focused on intelligent data analysis, data quality assessment, and AI-powered applications to solve real problems.</p>
+            </div>
+          </div>
+
+          <div class="milestone-card">
+            <div class="milestone-icon">📜</div>
+            <div class="milestone-content">
+              <h4>Technical Certifications</h4>
+              <p>Earned verified certifications in <strong>IBM AI Fundamentals</strong>, <strong>UiPath Automation Explorer</strong>, and <strong>Data Science</strong>.</p>
+            </div>
+          </div>
+
+          <div class="milestone-card">
+            <div class="milestone-icon">🔬</div>
+            <div class="milestone-content">
+              <h4>Research Experience</h4>
+              <p>Participated in academic research and paper development focused on emerging computer science and AI methodologies.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. CONTACT SECTION
+         ========================================================= -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Interested in collaborating, hiring, or discussing AI projects? Let's connect!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Column -->
+          <div class="contact-info">
+            <h3 class="contact-info-title">Let's build something impactful together</h3>
+            <p class="contact-info-text">
+              <strong>Career Goal:</strong> Seeking an entry-level AI/ML or software engineering opportunity where I can apply my technical skills, continue learning, and contribute to real-world projects.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <span class="contact-icon">📧</span>
+                <div>
+                  <div class="contact-label">Email</div>
+                  <a href="mailto:maryasitha@gmail.com" class="contact-value">maryasitha@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="contact-icon">📍</span>
+                <div>
+                  <div class="contact-label">Education & Location</div>
+                  <span class="contact-value">St. Joseph’s Institute of Technology, Chennai</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+              <a href="https://github.com/MaryAsitha" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/mary-asitha-a-ba8449295" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-card">
+            <div id="form-status" class="form-status" role="alert" aria-live="polite"></div>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name <span class="required">*</span></label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="e.g. Alex Morgan" 
+                  required
+                >
+                <span class="form-error" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. alex@example.com" 
+                  required
+                >
+                <span class="form-error" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input 
+                  type="text" 
+                  id="subject" 
+                  name="subject" 
+                  class="form-input" 
+                  placeholder="e.g. AI/ML Role or Collaboration"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required">*</span></label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  class="form-input form-textarea" 
+                  rows="4" 
+                  placeholder="Write your message here..." 
+                  required
+                ></textarea>
+                <span class="form-error" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       8. FOOTER
+       ========================================================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-copy">
+        &copy; <span id="current-year">2026</span> Mary Asitha A. Built with HTML, CSS, and JavaScript.
+      </p>
+      <a href="#top" class="footer-top-link" aria-label="Back to top">
+        Back to Top &uarr;
+      </a>
+    </div>
+  </footer>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
