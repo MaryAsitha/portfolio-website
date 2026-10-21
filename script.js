@@ -54,9 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
         this.y = Math.random() * height;
         this.vx = (Math.random() - 0.5) * 0.9;
         this.vy = (Math.random() - 0.5) * 0.9;
-        this.radius = Math.random() * 2 + 1.2;
-        // Alternating Cyan and Violet hues
-        this.color = Math.random() > 0.5 ? '#00f0ff' : '#8b5cf6';
+        this.radius = Math.random() * 1.8 + 1;
+        // Elegant Tech Blue and Soft Indigo
+        this.color = Math.random() > 0.5 ? '#38bdf8' : '#818cf8';
       }
 
       update() {
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(0, 240, 255, ${alpha * 0.25})`;
+            ctx.strokeStyle = `rgba(56, 189, 248, ${alpha * 0.22})`;
             ctx.lineWidth = 1;
             ctx.stroke();
           }
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(mouse.x, mouse.y);
-            ctx.strokeStyle = `rgba(139, 92, 246, ${alpha * 0.4})`;
+            ctx.strokeStyle = `rgba(99, 102, 241, ${alpha * 0.35})`;
             ctx.lineWidth = 1.2;
             ctx.stroke();
           }
